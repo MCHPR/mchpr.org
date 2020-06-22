@@ -40,6 +40,7 @@ class BaseTemplate : Template<HTML> {
                 +"MCHPR | Minecraft High Performance Redstone"
             }
             link(href = "https://use.fontawesome.com/releases/v5.1.1/css/all.css", rel = "stylesheet")
+            link(href = "/static/favicon.ico", rel = "icon")
             link(href = "https://fonts.googleapis.com/css?family=Montserrat&display=swap", rel = "stylesheet")
             style {
                 unsafe {

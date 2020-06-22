@@ -89,4 +89,4 @@ fun getStyle(): String =
                 blurRadius = 10.px
             )
         }
-    }.toString()
+    }.toString().replace("\\s".toRegex(), "")
